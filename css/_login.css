@@ -1,0 +1,204 @@
+
+
+*, *:focus {
+	outline: none;
+}
+
+
+body.login {
+
+	color:#130c0d!important;
+	background-color:#130c0d!important;
+	background-image:url(../images/banner.jpg);
+	background-size: cover;
+}
+
+
+
+#login h1 a {
+	background: url(../images/logo.jpg) no-repeat top center!important;
+    display: block;
+    height: 100px!important;
+    width: auto;
+    background-size: contain!important;
+    margin: 0!important;
+}
+
+#login h1 a:focus {
+	border: none;
+}
+
+.login form {
+    margin-top: 0!important;
+    border: none;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    -moz-box-shadow: none;
+    border-radius: 0;
+    padding: 30px 20px 20px 20px!important;
+    box-shadow: none!important;
+    background: transparent!important;
+    border-radius: 8px;
+}
+
+.login label {
+	color:#fff!important;
+	text-transform: uppercase!important;
+	letter-spacing: 1px!important;
+	font-size: 10px!important;
+	font-weight: bold!important;
+}
+
+
+body.login form input[type=checkbox] {
+	display: block;
+	float:left;
+	width:30px;
+	height:30px;
+	border-radius: 50%;
+    background-color: #fff!important;
+    margin-right:10px;
+}
+
+
+p.forgetmenot {
+	margin-top:10px!important;
+}
+
+input[type=checkbox]:checked:before {
+    content: "\f147";
+    margin: 5px!important;
+    color: #130c0d!important
+}
+
+
+body.login form .input, body.login input[type=text] {
+	font-size: 14px;
+    width: 100%;
+    padding: 0 1em;
+    margin: 5px 0 20px 0;
+    line-height: 16px;
+    background-color: #fff!important;
+    border-radius: 30px;
+    height: 40px;
+    line-height: 40px;
+    font-weight: normal;
+    color:#130c0d!important
+}
+
+
+#login {
+	padding:30px 20px 20px 20px!important;
+	background: #130c0d!important;
+    margin: auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate3d(-50%,-50%,0);
+    -moz-transform: translate3d(-50%,-50%,0);
+    -o-transform: translate3d(-50%,-50%,0);
+    -ms-transform: translate3d(-50%,-50%,0);
+    transform: translate3d(-50%,-50%,0);
+    box-shadow: 0 0 100px rgba(0,0,0,0.5);
+}
+
+#backtoblog {
+	display: none!important;
+}
+
+
+.wp-core-ui .button-primary {
+	background:rgba(0,0,0,0.2)!important;
+	color:#fff!important;	
+	border-radius: 2px;
+}
+
+.wp-core-ui .button-primary:hover {
+	background:rgba(0,0,0,0.5)!important;
+}
+
+#login_error, .login .message {
+	color:#000!important;
+}
+
+
+.login form .input, 
+.login form input[type=checkbox], 
+.login input[type=text] {
+	color:#0f263e;
+}
+
+input[type=checkbox], input[type=color], input[type=date], input[type=datetime-local], input[type=datetime], input[type=email], input[type=month], input[type=number], input[type=password], input[type=radio], input[type=search], input[type=tel], input[type=text], input[type=time], input[type=url], input[type=week], select, textarea {
+	  border: none!important;
+  -webkit-box-shadow: none!important;
+  box-shadow: none!important;
+  background-color: #fff!important;
+  color: #444!important;
+  outline: 0!important;
+  
+  -webkit-transition: .05s border-color ease-in-out!important;
+  transition: .05s border-color ease-in-out!important;
+}
+
+
+.login input[type=text], .login input[type=password] {
+	 padding: 0.7em;
+  border-radius: 2px;
+  font-size: 1em;
+}
+
+.login form .input:focus, 
+.login form input[type=checkbox]:focus, 
+.login input[type=text]:focus {
+	border:none!important;	
+	box-shadow: none!important;
+}
+
+
+#login h1 {
+	  text-align: center;
+}
+
+
+
+
+.wp-core-ui .button-group.button-large .button, .wp-core-ui .button.button-large {
+	height: 30px!important;
+  line-height: 0px!important;
+  padding: 1.5em 2em!important;
+  border-radius: 30px!important;
+  background: #889486!important;
+}
+
+
+
+.login #nav {
+	display: none;
+	color:rgba(0,0,0,0.1);
+}
+
+.login #nav a, .login #backtoblog a {
+	color:#666!important;
+	text-decoration:none;
+	opacity: 0.4;
+}
+
+.login #nav a:hover, .login #backtoblog a:hover {
+	color:#666!important;
+	opacity: 1;
+}
+
+.wp-core-ui .button-primary {
+	border-color: 0!important;
+	border:none!important;
+	-webkit-box-shadow: none!important;
+	box-shadow: none!important;
+	text-decoration: none;
+	-webkit-border-radius:0!important;
+	-moz-border-radius:0!important;
+	-o-border-radius:0!important;
+	border-radius:0!important;
+	text-shadow: none!important;
+}
+
+
