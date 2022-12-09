@@ -1,5 +1,7 @@
 <?php get_header();?>
 
+<?php get_header();?>
+
 
 
 <section class="container-fluid single-product-content padding-top-half padding-bottom">
@@ -135,5 +137,7 @@ if( $images ): ?>
 	</div>
 </section>						
 
+
+<?php get_footer();?>
 
 <?php get_footer();?>

@@ -1,5 +1,5 @@
 <?php get_header();?>
-<!--
+
 <section class="relative table w-full " id="home">
            
 		   <div class="grid lg:grid-cols-12 md:grid-cols-2  items-center ">
@@ -13,7 +13,7 @@
 		   <h4 class="font-bold text-3xl ttext-white  text-white py-3 ">SERVICE</h4>
           </div> </div> 
 		
-	
+	 <!-- end form -->
  </div>
 			   
 
@@ -25,19 +25,19 @@
  					<a href ="#spare"> <h4 class="font-bold text-3xl text-white hover:text-orange-700 cursor-pointer opacity-100 hover:opacity-80" >Browse OEM and Generic spare parts</h4></a> 
 					</div>
 						  
+					   <!-- end form -->
 				
-				
-			    
+			   
 		   
-	   </div>
-   </section>
-  
---> 
+	   </div><!--end container-->
+   </section><!--end section-->
+   <!-- End Hero --> 
+
 
        
 <section class="container-fluid main-content padding">
 	<div class="container">
-		<div class="row top-xs pt-10">
+		<div class="row top-xs">
 			
 			<div class="col-xs-3">
 				
@@ -109,22 +109,22 @@
 			</div>	
 			
 			
-				<div class="col-xs-9 ">
+				<div class="col-xs-9">
 					
 					<div class="row category-header">
 						
 						<div class="col-xs-12">
 						
-						<h1 class = "font-bold text-3xl py-2 "><?php single_cat_title();?></h1>
+						<h1 class = "font-bold text-2xl py-2"><?php single_cat_title();?></h1>
 						
-					
+						<?php echo category_description();?>
 						
-						</div> 
+						</div>
 						
 					</div>
 					
 					
-					<div class="row ">
+					<div class="row">
 				
 				<?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
 				
@@ -132,11 +132,16 @@
 						
 					<a class="product-link" href="<?php the_permalink();?>">
 						
-						
-						<div class="product-content flex transition-all duration-500 hover:scale-105 shadow dark:shadow-gray-800 hover:shadow-md dark:hover:shadow-gray-700 ease-in-out items-center p-3 rounded-md bg-white dark:bg-slate-900">
+					<!--	<div class="product-image">	
+							<?php /* if ( has_post_thumbnail() ) : ?>
+							        <?php the_post_thumbnail('medium'); */?>
+							<?php /*endif; */?>	
+						</div>	-->
+						<div class="product-content">
 							
-							<h4 class = "font-bold text-1xl py-2   hover:text-red-600"><?php the_title();?></h4>
-							
+							<h3 class = "font-bold text-1xl py-2"><?php the_title();?></h3>
+							<?php the_excerpt();?>
+							<span class="button orange clear">View Product</span>
 							
 						</div>
 						

@@ -5,7 +5,7 @@
 <section class="container-fluid padding news-feed">
 	<div class="container">
 		
-		<div class="row center-xs padding-bottom">
+	<div class="row center-xs padding-bottom">
 				
 				<form id="myForm" name="myForm" action="<?php bloginfo('url');?>/news/" method="get">
 

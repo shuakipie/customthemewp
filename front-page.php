@@ -19,6 +19,8 @@
 			</div>
 			<div class="col-xs-3">
 				<div class="spares-box">
+
+				
 					
 					<h3><i class="far fa-cog"></i> Spare Parts</h3>
 					
